@@ -27,7 +27,7 @@ int main()
     
      if(count<3)
      {    
-         if(password==7105)
+         if(password==1234)
          {
              menu();
          }   
