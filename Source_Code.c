@@ -43,7 +43,7 @@ int main()
      else
      {
          clrscr();
-         printf("\n\n\tsystem is locked №  \n");
+         printf("\n\n\tsystem is locked \n");
          printf("\t wait 10 second\n");
          time_t start,end;
          int second=10;
@@ -77,8 +77,7 @@ void menu()
         printf("9.Hexadecimal convert to octal\n\n");
         printf("10.Octal convert to decimal\n");
         printf("11.Octal convert to binary\n");
-        printf("12.Octal convert to hexadecimal\n");
-        printf("тОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтО");
+        printf("12.Octal convert to hexadecimal\n\n");
         printf("\nEnter your choice : ");
         scanf("%d",&ch);
         
@@ -144,8 +143,7 @@ void d2b()
 {
         int base=0,x=1;
         clrscr();
-        printf("   Decimal convert into Binary \n");
-        printf("тОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтО");
+        printf("   Decimal convert into Binary \n\n");
         printf("Enter Decimal Number : ");
         scanf("%d",&n);
         k = n;
@@ -168,8 +166,8 @@ void d2b()
         
         if(s==1)
         {
-            printf("Method : \nтОтОтОтОтОтОтОтО\n");
-            printf("тWe convert decimal to binary. \n\n");
+            printf("Method : \n");
+            printf("We convert decimal to binary. \n\n");
             printf("Decimal Number = %d\n\n",k);
             while(k>0)
             {
@@ -180,7 +178,7 @@ void d2b()
                 printf("   |  1  |\n\n");
                 printf("collected last line all numbers in reverse order = %d",base);
                 printf("\n\t\t   ----->");
-                printf("\n\nтso,Binary Number = %d",base);
+                printf("\n\nso,Binary Number = %d",base);
                 printf("\n--------------------------------");
         }
         else{ menu();}
@@ -191,8 +189,7 @@ void d2o()
 {
         int base=0,x=1; 
         clrscr();
-        printf("   Decimal convert into octal \n");
-        printf("тОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтО");
+        printf("   Decimal convert into octal \n\n");
         printf("Enter Decimal Number : ");
         scanf("%d",&n);
         k = n;
@@ -215,8 +212,8 @@ void d2o()
         
         if(s==1)
         {
-            printf("Method : \nтОтОтОтОтОтОтОтО\n");
-            printf("тWe convert decimal to octal. \n\n");
+            printf("Method : \n");
+            printf("We convert decimal to octal. \n\n");
             printf("Decimal Number = %d\n\n",k);
             while(k>0)
             {
@@ -225,9 +222,9 @@ void d2o()
                 k = k / 8;
             }
                 printf("   |  1  |\n\n");
-                printf("тcollected last line all digits in reverse order = %d",base);
+                printf("collected last line all digits in reverse order = %d",base);
                 printf("\n\t\t   ----->");
-                printf("\n\nтso,Octal Number = %d",base);
+                printf("\n\nso,Octal Number = %d",base);
                 printf("\n--------------------------------");
         }
         else{ menu();}
@@ -239,8 +236,7 @@ void d2h()
         int i=0;
         char a[15];
         clrscr();
-        printf("Decimal convert into hexadecimal\n");
-        printf("тОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтО");
+        printf("Decimal convert into hexadecimal\n\n");
         printf("Enter Decimal Number : ");
         scanf("%d",&n);
         k = n;
@@ -276,8 +272,8 @@ void d2h()
         
         if(s==1)
         {
-            printf("Method : \nтОтОтОтОтОтОтОтО\n");
-            printf("тWe convert decimal to hexadecim-al. \n\n");
+            printf("Method : \n");
+            printf("We convert decimal to hexadecimal. \n\n");
             printf("Decimal Number = %d\n\n",k);
             while(k>0)
             {
@@ -288,13 +284,13 @@ void d2h()
             printf("    |  1  |\n\n");
                 
                 printf("when We can write,A=10,B=11,C=12,D=13,E=14,F=15.\n\n");
-                printf("тcollected last line all digits in reverse order = ");
+                printf("collected last line all digits in reverse order = ");
                 for(int j=i-1;j>-1;j--)
                 {
                      printf(" %c",a[j]);
                 }
                 printf("\n\t\t    -------->");
-                printf("\n\nтso,Hexadecimal Number = \n\n\t  ");
+                printf("\n\nso,Hexadecimal Number = \n\n\t  ");
                 printf("  ( ");
                 for(int j=i-1;j>-1;j--)
                 {
@@ -311,8 +307,7 @@ void b2d()
 {
         int base=0,x=1,count=0;
         clrscr();
-        printf("   Binary convert into decimal\n");
-        printf("тОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтО");
+        printf("   Binary convert into decimal\n\n");
         printf("Enter binary Number : ");
         scanf("%d",&n);
         k = n;
@@ -338,8 +333,8 @@ void b2d()
         int y=1;
         if(s==1)
         {
-            printf("Method : \nтОтОтОтОтОтОтОтО\n");
-            printf("тWe convert binary to decimal. \n\n");
+            printf("Method : \n");
+            printf("We convert binary to decimal. \n\n");
             printf("Binary Number = %d",k);
             printf("\n\t\t<------");
             printf("\n\nso,we reverse binary number and perform below sum : \n\n");
@@ -357,7 +352,7 @@ void b2d()
                 k = k / 10;
                 x = x * 2;
             }
-                printf("\n\nтso,Decimal Number = %d",base);
+                printf("\n\nso,Decimal Number = %d",base);
                 printf("\n--------------------------------");
         }
         else{ menu();}
@@ -368,8 +363,7 @@ void b2o()
 {
         int base=0,x=1,count=0,y=1;
         clrscr();
-        printf("   Binary convert into octal \n");
-        printf("тОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтО");
+        printf("   Binary convert into octal \n\n");
         printf("Enter Binary Number : ");
         scanf("%d",&n);
         
@@ -404,8 +398,8 @@ void b2o()
         x = 1;
         if(s==1)
         {
-            printf("Method : \nтОтОтОтОтОтОтОтО\n");
-            printf("тFirst,we convert binary to dec-imal. \n\n");
+            printf("Method : \n");
+            printf("First,we convert binary to dec-imal. \n\n");
             printf("Binary Number = %d",k);
             printf("\n\t\t<------");
             printf("\n\nso,we reverse binary number and perform below sum : \n\n");
@@ -424,8 +418,8 @@ void b2o()
                 k = k / 10;
                 x = x * 2;
             }
-                printf("\n\nтso,Decimal Number = %d",z);
-                printf("\n\nтso,we convert decimal to octal. \n");
+                printf("\n\nso,Decimal Number = %d",z);
+                printf("\n\nso,we convert decimal to octal. \n");
                 
                 while(z>0)
                 {
@@ -434,9 +428,9 @@ void b2o()
                     z = z / 8;
                 }
                 printf("   |  1  |\n\n");
-                printf("тcollected last line all digits in reverse order = %d",base);
+                printf("collected last line all digits in reverse order = %d",base);
                 printf("\n\t\t   ----->");
-                printf("\n\nтso,Octal Number = %d",base);
+                printf("\n\nso,Octal Number = %d",base);
                 printf("\n--------------------------------");
         }
         else{ menu();}
@@ -448,8 +442,7 @@ void b2h()
         int base=0,x=1,i,count=0;
         char a[7];
         clrscr();
-        printf(" Binary convert into hexadecimal\n");
-        printf("тОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтО");
+        printf(" Binary convert into hexadecimal\n\n");
         printf("Enter Binary Number : ");
         scanf("%d",&n);
         
@@ -494,8 +487,8 @@ void b2h()
        x = 1;
        if(s==1)
        {
-            printf("Method : \nтОтОтОтОтОтОтОтО\n");
-            printf("тFirst,we convert binary to dec-imal . \n\n");
+            printf("Method : \n");
+            printf("First,we convert binary to dec-imal . \n\n");
             printf("Binary Number = %d",k);
             printf("\n\t\t<------");
             printf("\n\nso,we reverse binary number and perform below sum : \n\n");
@@ -514,8 +507,8 @@ void b2h()
                 k = k / 10;
                 x = x * 2;
             }
-                printf("\n\nтso,Decimal Number = %d",base);
-                printf("\n\nтso,we convert decimal to hexade-cimal. \n\n");
+                printf("\n\nso,Decimal Number = %d",base);
+                printf("\n\nso,we convert decimal to hexadecimal. \n\n");
                 
             while(base>0)
             {
@@ -525,13 +518,13 @@ void b2h()
             }
                 printf("    |  1  |\n\n");
                 printf("when We can write,A=10,B=11,C=12,D=13,E=14,F=15.\n\n");
-                printf("тcollected last line all digits in reverse order = ");
+                printf("collected last line all digits in reverse order = ");
                 for(int j=i-1;j>-1;j--)
                 {
                      printf(" %c",a[j]);
                 }
                 printf("\n\t\t    -------->");
-                printf("\n\nтso,Hexadecimal Number = \n\n\t  ");
+                printf("\n\nso,Hexadecimal Number = \n\n\t  ");
                 printf("  ( ");
                 for(int j=i-1;j>-1;j--)
                 {
@@ -549,8 +542,7 @@ void o2d()
 {
         int base=0,x=1,count=0;
         clrscr();
-        printf("   Octal convert into decimal\n");
-        printf("тОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтО");
+        printf("   Octal convert into decimal\n\n");
         printf("Enter octal Number : ");
         scanf("%d",&n);
         k = n;
@@ -576,8 +568,8 @@ void o2d()
         int y=1;
         if(s==1)
         {
-            printf("Method : \nтОтОтОтОтОтОтОтО\n");
-            printf("тWe convert octal to decimal. \n\n");
+            printf("Method : \n");
+            printf("We convert octal to decimal. \n\n");
             printf("Octal Number = %d",k);
             printf("\n\t       <-----");
             printf("\n\nso, we reverse octal number and perform below sum : \n\n");
@@ -595,7 +587,7 @@ void o2d()
                 k = k / 10;
                 x = x * 8;
             }
-                printf("\n\nтso,Decimal Number = %d",base);
+                printf("\n\nso,Decimal Number = %d",base);
                 printf("\n--------------------------------");
         }
         else{ menu();}
@@ -606,8 +598,7 @@ void o2b()
 {
         int base=0,x=1,count=0;
         clrscr();
-        printf("   Octal convert into binary\n");
-        printf("тОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтО");
+        printf("   Octal convert into binary\n\n");
         printf("Enter octal Number : ");
         scanf("%d",&n);
         k = n;
@@ -643,8 +634,8 @@ void o2b()
         int y=1;
         if(s==1)
         {
-            printf("Method : \nтОтОтОтОтОтОтОтО\n");
-            printf("тFirst,we convert octal to deci-mal. \n\n");
+            printf("Method : \n");
+            printf("First,we convert octal to deci-mal. \n\n");
             printf("Octal Number = %d",k);
             printf("\n\t       <-----");
             printf("\n\nso, we reverse octal number and perform below sum : \n\n");
@@ -662,8 +653,8 @@ void o2b()
                 k = k / 10;
                 x = x * 8;
             }
-                printf("\n\nтso,Decimal Number = %d",t);
-                printf("\n\nтso,we convert decimal to binary\n\n");
+                printf("\n\nso,Decimal Number = %d",t);
+                printf("\n\nso,we convert decimal to binary\n\n");
                 while(t>0)
                 {
                     r = t % 2;
@@ -671,9 +662,9 @@ void o2b()
                     t = t / 2;
                 }
                 printf("   |  1  |\n\n");
-                printf("тcollected last line all digits in reverse order = %d",base);
+                printf("collected last line all digits in reverse order = %d",base);
                 printf("\n\t\t   ----->");
-                printf("\n\nтso,Binary Number = %d",base);
+                printf("\n\nso,Binary Number = %d",base);
                 printf("\n--------------------------------");
         }
         else{ menu();}        
@@ -686,8 +677,7 @@ void o2h()
         int base=0,x=1,count=0,i=0;
         char a[15];
         clrscr();
-        printf("Octal convert into hexadecimal\n");
-        printf("тОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтО");
+        printf("Octal convert into hexadecimal\n\n");
         printf("Enter octal Number : ");
         scanf("%d",&n);
         k = n;
@@ -732,8 +722,8 @@ void o2h()
         int y=1;
         if(s==1)
         {
-            printf("Method : \nтОтОтОтОтОтОтОтО\n");
-            printf("тFirst,we convert octal to deci-mal . \n\n");
+            printf("Method : \n");
+            printf("First,we convert octal to deci-mal . \n\n");
             printf("Octal Number = %d",k);
             printf("\n\t       <-----");
             printf("\n\nso, we reverse octal number and perform below sum : \n\n");
@@ -751,8 +741,8 @@ void o2h()
                 k = k / 10;
                 x = x * 8;
             }
-                printf("\n\nтso,Decimal Number = %d",base);
-                printf("\n\nтso,we convert decimal to hexad-ecimal.\n\n");
+                printf("\n\nтso,Decimal Number = %d",base);
+                printf("\n\nso,we convert decimal to hexad-ecimal.\n\n");
                 k = base;
             while(k>0)
             {
@@ -763,13 +753,13 @@ void o2h()
             printf("    |  1  |\n\n");
                 
                 printf("when We can write,A=10,B=11,C=12,D=13,E=14,F=15.\n\n");
-                printf("тcollected last line all digits in reverse order = ");
+                printf("collected last line all digits in reverse order = ");
                 for(int j=i-1;j>-1;j--)
                 {
                      printf(" %c",a[j]);
                 }
                 printf("\n\t\t    -------->");
-                printf("\n\nтso,Hexadecimal Number = \n\n\t  ");
+                printf("\n\nso,Hexadecimal Number = \n\n\t  ");
                 printf("  ( ");
                 for(int j=i-1;j>-1;j--)
                 {
@@ -787,8 +777,7 @@ void h2d()
         char a[10];
         int i,l=0,x=1,base=0,d=0;
         clrscr();
-        printf("Hexadecimal convert into decimal\n");
-        printf("тОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтО");  
+        printf("Hexadecimal convert into decimal\n\n");  
         printf("Enter hexadecimal Number : ");
         scanf("%s",&a);
         
@@ -817,8 +806,8 @@ void h2d()
         int y=1;
         if(s==1)
         {
-            printf("Method : \nтОтОтОтОтОтОтОтО\n");
-            printf("тso,we convert hexadecimal to de-cimal.\n\n");
+            printf("Method : \n");
+            printf("so,we convert hexadecimal to decimal.\n\n");
             printf("Hexadecimal Number = ");
             puts(a);
             printf("\t\t     <------");
@@ -844,7 +833,7 @@ void h2d()
                 }
                 x = x * 16;
             } 
-                printf("\n\nтso,Decimal Number = %d",d);
+                printf("\n\nso,Decimal Number = %d",d);
                 printf("\n--------------------------------");
         }
         else{ menu();}
@@ -856,8 +845,7 @@ void h2b()
         char a[10];
         int i,l=0,x=1,base=0,d=0;
         clrscr();
-        printf("Hexadecimal convert into decimal\n");
-        printf("тОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтО");  
+        printf("Hexadecimal convert into decimal\n\n");  
         printf("Enter hexadecimal Number : ");
         scanf("%s",&a);
         
@@ -895,8 +883,8 @@ void h2b()
         int y=1;
         if(s==1)
         {
-            printf("Method : \nтОтОтОтОтОтОтОтО\n");
-            printf("тFirst,we convert hexadedecimal to decimal . \n\n");
+            printf("Method : \n");
+            printf("First,we convert hexadedecimal to decimal . \n\n");
             printf("Hexadecimal Number = ");
             puts(a);
             printf("\t\t     <------");
@@ -922,8 +910,8 @@ void h2b()
                 }
                 x = x * 16;
             } 
-                printf("\n\nтso,Decimal Number = %d",d);
-                printf("\n\nтso,we convert decimal to binary\n\n");
+                printf("\n\nso,Decimal Number = %d",d);
+                printf("\n\nso,we convert decimal to binary\n\n");
                 int k = d;
                 while(k>0)
                 {
@@ -932,9 +920,9 @@ void h2b()
                     k = k / 2;
                 }
                     printf("   |  1  |\n\n");
-                    printf("тcollected last line all digits in reverse order = %d",t);
+                    printf("collected last line all digits in reverse order = %d",t);
                     printf("\n\t\t   ----->");
-                    printf("\n\nтso,Binary Number = %d",t);
+                    printf("\n\nso,Binary Number = %d",t);
                     printf("\n--------------------------------");
         }
         else{ menu();}
@@ -946,8 +934,7 @@ void h2o()
         char a[10];
         int i,l=0,x=1,base=0,d=0;
         clrscr();
-        printf("Hexadecimal convert into decimal\n");
-        printf("тОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтОтО");  
+        printf("Hexadecimal convert into decimal\n\n"); 
         printf("Enter hexadecimal Number : ");
         scanf("%s",&a);
         
@@ -985,8 +972,8 @@ void h2o()
         int y=1;
         if(s==1)
         {
-            printf("Method : \nтОтОтОтОтОтОтОтО\n");
-            printf("тFirst,we convert hexadedecimal to decimal . \n\n");
+            printf("Method : \n");
+            printf("First,we convert hexadedecimal to decimal . \n\n");
             printf("Hexadecimal Number = ");
             puts(a);
             printf("\t\t     <------");
@@ -1012,8 +999,8 @@ void h2o()
                 }
                 x = x * 16;
             } 
-                printf("\n\nтso,Decimal Number = %d",d);
-                printf("\n\nтso,we convert decimal to octal\n\n");
+                printf("\n\nso,Decimal Number = %d",d);
+                printf("\n\nso,we convert decimal to octal\n\n");
                 int k = d;
                 while(k>0)
                 {
@@ -1022,9 +1009,9 @@ void h2o()
                     k = k / 8;
                 }
                     printf("   |  1  |\n\n");
-                    printf("тcollected last line all digits in reverse order = %d",t);
+                    printf("collected last line all digits in reverse order = %d",t);
                     printf("\n\t\t   ----->");
-                    printf("\n\nтso,Octal Number = %d",t);
+                    printf("\n\nso,Octal Number = %d",t);
                     printf("\n--------------------------------");
         }
         else{ menu();}
